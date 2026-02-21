@@ -32,6 +32,7 @@ git clone https://github.com/TU_USUARIO/TU_REPO.git
 cd TU_REPO
 npm install
 npm run dev
+```
 
 ---
 
