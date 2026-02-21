@@ -1,16 +1,46 @@
-# React + Vite
+# 🪵 Martín | Carpintería Artesanal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Sitio web profesional desarrollado para una carpintería especializada en muebles a medida.  
+El proyecto está enfocado en un diseño visual atractivo, experiencia de usuario y conversión directa mediante integración con WhatsApp.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tecnologías utilizadas
 
-## React Compiler
+- ⚛️ React
+- 🎨 CSS3 (Flexbox + Grid)
+- 📱 Diseño Responsive
+- 💬 Integración con WhatsApp API
+- ▲ Deploy en Vercel
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Funcionalidades
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Galería de trabajos estilo mosaico (layout tipo masonry con CSS Grid)
+- Sección “Proceso de trabajo”
+- Formulario de contacto dinámico
+- Generación automática de mensaje hacia WhatsApp
+- Diseño moderno y adaptable a dispositivos móviles
+
+---
+
+## 📦 Instalación local
+
+```bash
+git clone https://github.com/TU_USUARIO/TU_REPO.git
+cd TU_REPO
+npm install
+npm run dev
+```
+
+---
+
+## 🌐 Deploy
+
+---
+
+## 🎯 Objetivo del proyecto
+
+Desarrollar una página moderna, visualmente atractiva y optimizada para generar consultas directas, destacando la calidad artesanal y profesionalismo del servicio.
+>>>>>>> b0e20b4d391fbf9eaf8cc830bb60b22f19c8f77a
