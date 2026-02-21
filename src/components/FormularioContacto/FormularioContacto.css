@@ -1,0 +1,119 @@
+.contacto-seccion{
+    padding: 6rem 2rem;
+    background: linear-gradient(
+        135deg,
+        #1a0e01 0%,
+        #2b1a05 50%,
+        #3a2208 100%
+    );
+    display: flex;
+    justify-content: center;
+}
+
+.contacto-form{
+    background: linear-gradient(
+        145deg,
+        rgba(255,255,255,0.98),
+        rgba(255,248,235,0.95)
+    );
+    padding: 3rem;
+    border-radius: 24px;
+    width: 100%;
+    max-width: 500px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.35);
+    border: 1px solid rgba(200, 169, 106, 0.3);
+}
+
+.contacto-form h2{
+    text-align: center;
+    color: #2b1a05;
+    margin-bottom: 1rem;
+    font-family: 'Playfair Display', serif;
+    position: relative;
+}
+
+/* línea decorativa más colorida */
+.contacto-form h2::after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    margin: 1rem auto 0;
+    background: linear-gradient(90deg, #c8a96a, #ff8c42);
+    border-radius: 3px;
+}
+
+.contacto-form input{
+    padding: 1rem;
+    border-radius: 14px;
+    border: 2px solid #f0e6d6;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    background-color: #fffaf2;
+}
+
+.contacto-form input:focus{
+    border-color: #ff8c42;
+    outline: none;
+    box-shadow: 0 0 0 4px rgba(255, 140, 66, 0.25);
+    transform: scale(1.02);
+}
+
+.contacto-form button{
+    padding: 1rem;
+    border-radius: 14px;
+    border: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+
+    background: linear-gradient(90deg, #c8a96a, #ff8c42);
+    color: white;
+
+    transition: all 0.3s ease;
+}
+
+.contacto-form button:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 15px 30px rgba(255, 140, 66, 0.4);
+}
+
+@media (max-width: 992px) {
+    .contacto-seccion{
+        padding: 4rem 1.5rem;
+    }
+
+    .contacto-form{
+        padding: 2.5rem;
+    }
+}
+@media (max-width: 600px) {
+
+    .contacto-seccion{
+        padding: 3rem 1rem;
+    }
+
+    .contacto-form{
+        padding: 2rem 1.5rem;
+        border-radius: 18px;
+    }
+
+    .contacto-form h2{
+        font-size: 1.5rem;
+    }
+
+    .contacto-form input{
+        padding: 0.9rem;
+        font-size: 0.90rem;
+    }
+
+    .contacto-form button{
+        font-size: 0.90rem;
+        padding: 1rem;
+    }
+}

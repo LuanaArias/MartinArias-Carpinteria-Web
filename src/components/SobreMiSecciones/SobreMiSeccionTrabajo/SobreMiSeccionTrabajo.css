@@ -1,0 +1,46 @@
+.sobre-mi-seccion-trabajo-container{
+    margin-top: 3rem;
+    padding: 4rem 2rem;
+    text-align: center;
+    background-color: #1a0e01; /* marrón oscuro */
+    color: #fff;
+}
+
+.sobre-mi-seccion-trabajo-contenido{
+    display: flex;
+    justify-content: center;      
+    align-items: stretch;         
+    gap: 3rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.sobre-mi-seccion-trabajo-container 
+.titulo-sobre-mi-seccion-trabajo::after{
+    content: "";
+    display: block;
+    width: 80px;
+    height: 3px;
+    margin: 1rem auto 2rem auto;
+    background-color: #c8a96a; /* dorado madera */
+    border-radius: 2px;
+}
+
+.sobre-mi-seccion-trabajo-items{
+    max-width: 17rem;
+    padding: 2rem;
+    border-radius: 16px;
+
+    background-color: #f5f2ed; /* blanco cálido */
+    color: #2b1a05;
+
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+
+    transition: all 0.3s ease;
+}
+
+.sobre-mi-seccion-trabajo-items:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+}
+

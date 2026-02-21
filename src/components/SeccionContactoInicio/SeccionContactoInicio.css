@@ -1,0 +1,79 @@
+.seccion-contacto-inicio{
+    background-color: #df9a50;
+    text-align: center;
+    padding: 4rem 0;
+}
+
+.seccion-contacto-inicio p{
+    color: rgb(255, 255, 255);
+}
+.seccion-contacto-inicio-contenido{
+    margin-bottom: 1.5rem;
+}
+.seccion-contacto-inicio .btn-contacto-inicio {
+    background-color: #8B5E3C; 
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+/* Hover */
+.seccion-contacto-inicio .btn-contacto-inicio:hover {
+    background-color: #6f472d;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.seccion-contacto-inicio .btn-contacto-inicio:active {
+    transform: translateY(0);
+    box-shadow: none;
+}
+
+@media (max-width: 992px) {
+
+    .seccion-contacto-inicio {
+        padding: 3rem 5%;
+    }
+
+    .seccion-contacto-inicio-contenido {
+        margin-bottom: 1.2rem;
+    }
+
+    .seccion-contacto-inicio p {
+        font-size: 15px;
+    }
+
+    .seccion-contacto-inicio .btn-contacto-inicio {
+        padding: 12px 24px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .seccion-contacto-inicio {
+        padding: 2.5rem 6%;
+    }
+
+    .seccion-contacto-inicio h2 {
+        font-size: 22px;
+    }
+
+    .seccion-contacto-inicio p {
+        font-size: 0.8rem;
+        line-height: 1.5;
+    }
+
+    .seccion-contacto-inicio .btn-contacto-inicio {
+        width: 30%;
+        max-width: 300px;
+        padding: 14px;
+        font-size: 15px;
+    }
+}

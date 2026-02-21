@@ -1,0 +1,16 @@
+header {
+    width: 100%;
+    height: auto;
+    background-color: #F4ECE6; 
+    position: relative; 
+    z-index: 9999;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 3rem;  
+    padding: 1rem 0; 
+}
+

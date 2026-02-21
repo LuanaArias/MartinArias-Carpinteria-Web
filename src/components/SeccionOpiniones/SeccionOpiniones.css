@@ -1,0 +1,25 @@
+.card-opiniones-container{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+.card-opiniones-container > * {
+    flex: 1 1 300px; 
+    max-width: 350px;
+}
+.seccion-opiniones-container{
+    background-color: #1a0e01;
+    padding: 4rem;
+    text-align: center;
+}
+
+.seccion-opiniones-container h4{
+    color: #df9a50;
+}
+.seccion-opiniones-container h1{
+    color: #ffffff;
+    font-family: 'Playfair Display', serif;
+}

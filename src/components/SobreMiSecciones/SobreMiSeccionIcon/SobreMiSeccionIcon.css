@@ -1,0 +1,32 @@
+.sobre-mi-seccion-iconos-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.sobre-mi-seccion-icono-item{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center; 
+}
+
+.sobre-mi-seccion-icono-item h3{
+    font-size: 2rem;
+    margin-top: 0.5rem;
+}
+
+.sobre-mi-seccion-icono-item p {
+    line-height: 1.7;
+    color: #444;
+    margin-bottom: 1rem;
+}
+@media (max-width: 768px) {
+    .sobre-mi-seccion-icono-item h3{
+        font-size: 1.5rem;
+    }
+    .sobre-mi-seccion-icono-item p {
+        line-height: 1.5;
+        font-size: 0.8rem;
+    }
+}

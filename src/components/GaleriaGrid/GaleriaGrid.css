@@ -1,0 +1,35 @@
+.galeria-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-auto-rows: 200px;
+    gap: 1rem;
+    grid-auto-flow: dense;
+    padding: 1rem 8rem;
+}
+
+.item{
+    position: relative;
+    overflow: hidden;
+    border-radius: 16px;
+}
+
+.item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* tamaños */
+
+.alto{
+    grid-row: span 2;
+}
+
+.ancho{
+    grid-column: span 2;
+}
+
+.grande{
+    grid-column: span 2;
+    grid-row: span 2;
+}

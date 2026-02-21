@@ -1,0 +1,45 @@
+.card-componente-opiniones-container {
+    background-color: #F4ECE6;
+    color: #4E342E;
+    padding: 2.5rem;
+    border-radius: 16px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: left;
+    position: relative;
+}
+
+/* Hover elegante */
+.card-componente-opiniones-container:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.12);
+}
+
+.card-opiniones-texto-container p {
+    font-style: italic;
+    line-height: 1.6;
+    margin: 1.5rem 0;
+    color: #5C4033;
+}
+
+.card-opiniones-nombre-container p {
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-bottom: 0.2rem;
+}
+
+.card-opiniones-cliente-container p {
+    font-size: 0.9rem;
+    color: #8D8D8D;
+}
+
+.card-componente-opiniones-container::before {
+    content: "“";
+    font-size: 4rem;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    color: #A47148;
+    opacity: 0.15;
+    font-family: serif;
+}

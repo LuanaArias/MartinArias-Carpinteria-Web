@@ -1,0 +1,11 @@
+.titulos-secciones-container{
+    color: #ffffff;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+
+@media (max-width: 992px) {
+    .titulos-secciones-container{
+        font-size: 0.7rem;
+    }
+}
