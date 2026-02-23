@@ -1,21 +1,29 @@
+.logo-container {
+    width: auto;
+}
+
 .imagen-logo {
     width: 100%;
-    max-width: 350px;   
-    height: auto;      
+    max-width: 200px;
+    height: auto;
     display: block;
-}
-.logo-container {
-    width: 55%;
 }
 
 @media (max-width: 1400px) {
     .logo-container {
-        width: 35%;
+        width: auto;
+    }
+    .imagen-logo {
+        max-width: 130px; 
     }
 }
 
 @media (max-width: 768px) {
     .logo-container {
-        width: 40%;
+        width: auto;
+    }
+
+    .imagen-logo {
+        max-width: 100px;
     }
 }

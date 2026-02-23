@@ -76,11 +76,14 @@
 }
 
 @media (max-width: 768px) {
-    .seccion-trabajos-recientes-imagenes-container{
-        gap: 1.5rem;
-        margin: 0 1.5rem;
+    .seccion-trabajos-recientes-imagenes-container {
+        flex-direction: column;   
+        gap: 1.5rem;              
+        margin: 0 1rem;
     }
-    .seccion-trabajos-recientes-titulo{
-        font-size: 0.7rem;
+
+    .seccion-trabajos-recientes-titulo {
+        font-size: 0.9rem;
+        text-align: center;
     }
 }

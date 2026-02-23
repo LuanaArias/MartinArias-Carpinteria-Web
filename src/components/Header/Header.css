@@ -14,3 +14,11 @@ header {
     padding: 1rem 0; 
 }
 
+@media (max-width: 768px) {
+    .header-container {
+        margin: 0 1.5rem;  
+    }
+    .header-superior{
+        padding-right: 1rem;
+    }
+}

@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import { ImagenTrabajosRecientes } from "../ui/ImagenTrabajosRecientes/ImagenTrabajosRecientes";
-import ImagenPrincipal from '../../assets/ImagenPrincipal.jpg'
+import imagen1 from '../../assets/ImagenesTrabajosRec/imagen1.png'
+import imagen2 from '../../assets/ImagenesTrabajosRec/imagen2.png'
+import imagen3 from '../../assets/ImagenesTrabajosRec/imagen3.png'
 import './SeccionTrabajosRecientes.css'
 
 export function SeccionTrabajosRecientes(){
@@ -12,9 +14,9 @@ export function SeccionTrabajosRecientes(){
                 </div>
                 
                 <div className="seccion-trabajos-recientes-imagenes-container">
-                    <ImagenTrabajosRecientes img={ImagenPrincipal} texto="Imagen 1"/>
-                    <ImagenTrabajosRecientes img={ImagenPrincipal} texto="Imagen 2"/>
-                    <ImagenTrabajosRecientes img={ImagenPrincipal} texto="Imagen 3"/>
+                    <ImagenTrabajosRecientes img={imagen1} texto="Bajo mesada"/>
+                    <ImagenTrabajosRecientes img={imagen2} texto="Bajo mesada y alacena"/>
+                    <ImagenTrabajosRecientes img={imagen3} texto="Muebles de habitación"/>
                 </div>
                 <div className="seccion-trabajos-recientes-boton"> 
                     <Link to="/galeria" className="btn-galeria">
